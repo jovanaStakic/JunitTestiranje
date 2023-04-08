@@ -1,3 +1,4 @@
+import biblioteka.Autor;
 import biblioteka.Biblioteka;
 import biblioteka.Knjiga;
 import biblioteka.iterfejs.BibliotekaInterfejs;
@@ -10,7 +11,7 @@ public class Test {
 		k.setIsbn(2323);
 		biblioteka.dodajKnjigu(k);
 		
-
+		
 	}
 
 }

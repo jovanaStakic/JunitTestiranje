@@ -2,7 +2,11 @@ package biblioteka;
 
 import java.util.List;
 import java.util.Objects;
-
+/**
+ * 
+ * @author Jovana Stakic
+ * @version 1.0.1
+ */
 public class Knjiga {
 	private String naslov;
 	private long isbn;
@@ -12,6 +16,11 @@ public class Knjiga {
 	public String getNaslov() {
 		return naslov;
 	}
+	/**
+	 *Pogledaj
+	 *
+	 *@see {@link biblioteka.Autor#getIme() heyy} 
+	 */
 	public void setNaslov(String naslov) {
 		if(naslov==null)
 			throw new NullPointerException("Naslov ne sme biti null!");
