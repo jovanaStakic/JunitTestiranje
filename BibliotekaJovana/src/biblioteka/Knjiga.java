@@ -61,8 +61,7 @@ public class Knjiga {
 		if (getClass() != obj.getClass())
 			return false;
 		Knjiga other = (Knjiga) obj;
-		return Objects.equals(autori, other.autori) && isbn == other.isbn && izdanje == other.izdanje
-				&& Objects.equals(izdavac, other.izdavac) && Objects.equals(naslov, other.naslov);
+		return isbn == other.isbn; 
 	}
 	@Override
 	public String toString() {

@@ -50,6 +50,11 @@ public class Autor {
 		Autor other = (Autor) obj;
 		return Objects.equals(ime, other.ime) && Objects.equals(prezime, other.prezime);
 	}
+
+	@Override
+	public String toString() {
+		return "Autor [ime=" + ime + ", prezime=" + prezime + "]";
+	}
 	
 	
 	
